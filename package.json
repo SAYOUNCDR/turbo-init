@@ -1,17 +1,22 @@
 {
-  "name": "cli-util",
+  "name": "@sayoun/turbo-init",
   "version": "1.0.0",
-  "description": "",
+  "description": "High-speed backend scaffolding for modern developers",
   "main": "index.js",
   "bin": {
-    "create-backend-app": "./bin/index.js"
+    "turbo-init": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node cli.js --help"
+    "dev": "node ./bin/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "backend",
+    "scaffolding",
+    "turbo",
+    "init"
+  ],
+  "author": "Sayoun Parui",
   "license": "ISC",
   "type": "module",
   "dependencies": {
